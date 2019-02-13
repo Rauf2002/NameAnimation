@@ -1,4 +1,13 @@
-.div1 {
+* {
+    box-sizing: border-box;
+    background-color: slateblue
+}
+.rauf {
+    width: 50%;
+    height: 700px;
+    float: left;
+}
+.rauf .div1 {
     width: 100px;
     height: 100px;
     animation-fill-mode: both;
@@ -8,14 +17,14 @@
     animation-duration: 3s;
 }
 @keyframes ex1 {
-    0% {background-color: white; left: 0px;top:0px;}
-    25% {background-color: black;left: 200px;top:70px;}
-    50% {background-color: black;left: 300px;top:70px;}
-    75% {background: black; left: 200px;top: 70px;}
-    100% {background-color: black; left: 200px; top: 70px;}
+    0% {background-color: slateblue; left: 0px;top:0px;}
+    25% {background-color:tomato;left: 200px;top:70px;}
+    50% {background-color:tomato;left: 300px;top:70px;}
+    75% {backgrounr:tomato; left: 200px;top: 70px;}
+    100% {background-color:tomato; left: 200px; top: 70px;}
     
 }
-.div2 {
+.rauf .div2 {
     width: 100px;
     height: 100px;
     animation-fill-mode: both;
@@ -25,13 +34,13 @@
     animation-duration: 3s;
 }
 @keyframes ex2 {
-    0%{background-color: white;left: 0px;top: 0px;}
-    25%{background-color: black;left: 200px;top:170px;}
-    50%{background-color: black;left:225px;top:170px;}
-    75% {background-color: black; left: 200px; top: 170px;}
-    100% {background-color: black; left: 200px; top: 170px;}
+    0%{background-color: slateblue;left: 0px;top: 0px;}
+    25%{background-color:tomato;left: 200px;top:170px;}
+    50%{background-color:tomato;left:225px;top:170px;}
+    75% {background-color:tomato; left: 200px; top: 170px;}
+    100% {background-color:tomato; left: 200px; top: 170px;}
 }
-.div3 {
+.rauf .div3 {
     width: 100px;
     height: 100px;
     animation-fill-mode: both;
@@ -41,13 +50,13 @@
     animation-duration: 3s;
 }
 @keyframes ex3 {
-    0% {background-color: white;left: 0px;top: 0px;}
-    25% {background-color: black;left: 200px;top:270px;}
-    50%{background-color: black;left: 150px;top:270px}
-    75% {background-color: black; left: 200px; top: 270px;}
-    100% {background-color: black; left: 200px; top: 270px;}
+    0% {background-color: slateblue;left: 0px;top: 0px;}
+    25% {background-color:tomato;left: 200px;top:270px;}
+    50%{background-color:tomato;left: 150px;top:270px}
+    75% {background-color:tomato; left: 200px; top: 270px;}
+    100% {background-color:tomato; left: 200px; top: 270px;}
 }
-.div4 {
+.rauf .div4 {
     width: 100px;
     height: 100px;
     animation-fill-mode: both;
@@ -57,13 +66,13 @@
     animation-duration: 3s;
 }
 @keyframes ex4 {
-    0% {background-color: white;left: 0px;top: 0px;}
-    25% {background-color: black;left: 200px;top:370px;}
-    50% {background-color: black ; left:75px ;top:370px;}
-    75% {background-color: black; left: 300px; top: 370px;}
-    100% {background-color: black; left: 200px; top: 370px;}
+    0% {background-color: slateblue;left: 0px;top: 0px;}
+    25% {background-color:tomato;left: 200px;top:370px;}
+    50% {background-color:tomato ; left:75px ;top:370px;}
+    75% {background-color:tomato; left: 300px; top: 370px;}
+    100% {background-color:tomato; left: 200px; top: 370px;}
 }
-.div5 {
+.rauf .div5 {
     width: 100px;
     height: 100px;
     animation-fill-mode: both;
@@ -73,13 +82,13 @@
     animation-duration: 3s;
 }
 @keyframes ex5 {
-    0% {background-color: white;left: 0px;top: 0px;}
-    25% {background-color: black;left: 300px;top:70px;}
-    50%{background-color: black; left:375px;top:170px;}
-    75% {background-color: black; left: 400px; top: 370px;}
-    100% {background-color: black; left: 200px; top: 470px;}
+    0% {background-color: slateblue;left: 0px;top: 0px;}
+    25% {background-color:tomato;left: 300px;top:70px;}
+    50%{background-color:tomato; left:375px;top:170px;}
+    75% {background-color:tomato; left: 400px; top: 370px;}
+    100% {background-color:tomato; left: 200px; top: 470px;}
 }
-.div6 {
+.rauf .div6 {
     width: 100px;
     height: 100px;
     animation-fill-mode: both;
@@ -89,13 +98,13 @@
     animation-duration: 3s;
 }
 @keyframes ex6 {
-    0% {background-color: white;left: 0px;top: 0px;}
-    25% {background-color: black; left: 400px;top:170px;}
-    50% {background-color: black;left: 450px;top:270px;}
-    75% {background-color: black; left: 500px; top: 270px;}
-    100% {background-color: black; left: 300px; top: 70px;}
+    0% {background-color: slateblue;left: 0px;top: 0px;}
+    25% {background-color:tomato; left: 400px;top:170px;}
+    50% {background-color:tomato;left: 450px;top:270px;}
+    75% {background-color:tomato; left: 500px; top: 270px;}
+    100% {background-color:tomato; left: 300px; top: 70px;}
 }
-.div7 {
+.rauf .div7 {
     width: 100px;
     height: 100px;
     animation-fill-mode: both;
@@ -105,13 +114,13 @@
     animation-duration: 3s;
 }
 @keyframes ex7 {
-    0% {background-color: white;left: 0px;top: 0px;}
-    25% {background-color: black;left: 300px;top:270px;}
-    50% {background-color: black; left: 525px;top:370px;}
-    75% {background-color: black; left: 500px; top: 170px;}
-    100% {background-color: black; left: 400px; top: 70px;}
+    0% {background-color: slateblue;left: 0px;top: 0px;}
+    25% {background-color:tomato;left: 300px;top:270px;}
+    50% {background-color:tomato; left: 525px;top:370px;}
+    75% {background-color:tomato; left: 500px; top: 170px;}
+    100% {background-color:tomato; left: 400px; top: 70px;}
 }
-.div8 {
+.rauf .div8 {
     width: 100px;
     height: 100px;
     animation-fill-mode: both;
@@ -121,11 +130,146 @@
     animation-duration: 3s;
 }
 @keyframes ex8 {
-    0% {background-color: white;left: 0px;top: 0px;}
-    25% {background-color: black;left: 400px;top:370px;}
-    50% {background-color: black; left:300px;top: 270px;}
-    75% {background-color: black; left: 500px; top: 70px;}
-    100% {background-color: black; left: 300px; top: 270px;}
+    0% {background-color: slateblue;left: 0px;top: 0px;}
+    25% {background-color:tomato;left: 400px;top:370px;}
+    50% {background-color:tomato; left:300px;top: 270px;}
+    75% {background-color:tomato; left: 500px; top: 70px;}
+    100% {background-color:tomato; left: 300px; top: 270px;}
+}
+/* Rauf Ends */
+.zaur {
+    width: 50%;
+    float: right;
+    height: 700px;
+}
+.zaur .div1 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex9;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex9 {
+    0% {background-color: slateblue; left: 0px;top:0px;}
+    25% {background-color: brown;left: 900px;top:70px;}
+    50% {background-color: brown;left: 1000px;top:70px;}
+    75% {background: brown; left: 900px;top: 70px;}
+    100% {background-color: brown;left: 900px;top:70px;}
+    
+}
+.zaur .div2 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex10;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex10 {
+    0%{background-color: slateblue;left: 0px;top: 0px;}
+    25%{background-color: brown;left: 1000px;top:70px;}
+    50%{background-color: brown;left:925px;top:170px;}
+    75% {background-color: brown; left: 900px; top: 170px;}
+    100% {background-color: brown;left: 900px;top:170px;}
+}
+.zaur .div3 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex11;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex11 {
+    0% {background-color: slateblue;left: 0px;top: 0px;}
+    25% {background-color: brown;left: 1100px;top:70px;}
+    50%{background-color: brown;left: 850px;top:270px}
+    75% {background-color: brown; left: 900px; top: 270px;}
+    100% {background-color: brown; left: 900px; top: 270px;}
+}
+.zaur .div4 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex12;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex12 {
+    0% {background-color: slateblue;left: 0px;top: 0px;}
+    25% {background-color: brown;left: 1025px;top:170px;}
+    50% {background-color: brown ; left:775px ;top:370px;}
+    75% {background-color: brown; left: 1000px; top: 370px;}
+    100% {background-color: brown; left: 900px; top: 370px;}
+}
+.zaur .div5 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex13;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex13 {
+    0% {background-color: slateblue;left: 0px;top: 0px;}
+    25% {background-color: brown;left: 950px;top:270px;}
+    50%{background-color: brown; left:1075px;top:170px;}
+    75% {background-color: brown; left: 1100px; top: 370px;}
+    100% {background-color: brown; left: 1000px; top: 70px;}
+}
+.zaur .div6 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex14;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex14 {
+    0% {background-color: slateblue;left: 0px;top: 0px;}
+    25% {background-color: brown; left: 900px;top:370px;}
+    50% {background-color: brown;left: 1150px;top:270px;}
+    75% {background-color: brown; left: 1200px; top: 270px;}
+    100% {background-color: brown; left: 1100px; top: 170px;}
+}
+.zaur .div7 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex15;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex15 {
+    0% {background-color: slateblue;left: 0px;top: 0px;}
+    25% {background-color: brown;left: 1000px;top:370px;}
+    50% {background-color: brown; left: 1225px;top:370px;}
+    75% {background-color: brown; left: 1200px; top: 170px;}
+    100% {background-color: brown; left: 1000px; top: 270px;}
+}
+.zaur .div8 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex16;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex16 {
+    0% {background-color: slateblue;left: 0px;top: 0px;}
+    25% {background-color: brown;left: 1100px;top:370px;}
+    50% {background-color: brown; left:1000px;top: 270px;}
+    75% {background-color: brown; left: 1200px; top: 70px;}
+    100% {background-color: brown; left: 1100px; top: 370px;}
 }
 
 
