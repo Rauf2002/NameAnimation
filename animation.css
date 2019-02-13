@@ -8,8 +8,12 @@
     animation-duration: 3s;
 }
 @keyframes ex1 {
-    from {background-color: white;left: 0px;top: 0px;}
-    to {background-color: black;left: 500px;top:70px;}
+    0% {background-color: white; left: 0px;top:0px;}
+    25% {background-color: black;left: 200px;top:70px;}
+    50% {background-color: black;left: 300px;top:70px;}
+    75% {background: black; left: 200px;top: 70px;}
+    100% {background-color: black; left: 200px; top: 70px;}
+    
 }
 .div2 {
     width: 100px;
@@ -21,8 +25,11 @@
     animation-duration: 3s;
 }
 @keyframes ex2 {
-    from {background-color: white;left: 0px;top: 0px;}
-    to {background-color: black;left: 500px;top:170px;}
+    0%{background-color: white;left: 0px;top: 0px;}
+    25%{background-color: black;left: 200px;top:170px;}
+    50%{background-color: black;left:225px;top:170px;}
+    75% {background-color: black; left: 200px; top: 170px;}
+    100% {background-color: black; left: 200px; top: 170px;}
 }
 .div3 {
     width: 100px;
@@ -34,8 +41,11 @@
     animation-duration: 3s;
 }
 @keyframes ex3 {
-    from {background-color: white;left: 0px;top: 0px;}
-    to {background-color: black;left: 500px;top:270px;}
+    0% {background-color: white;left: 0px;top: 0px;}
+    25% {background-color: black;left: 200px;top:270px;}
+    50%{background-color: black;left: 150px;top:270px}
+    75% {background-color: black; left: 200px; top: 270px;}
+    100% {background-color: black; left: 200px; top: 270px;}
 }
 .div4 {
     width: 100px;
@@ -47,8 +57,11 @@
     animation-duration: 3s;
 }
 @keyframes ex4 {
-    from {background-color: white;left: 0px;top: 0px;}
-    to {background-color: black;left: 500px;top:370px;}
+    0% {background-color: white;left: 0px;top: 0px;}
+    25% {background-color: black;left: 200px;top:370px;}
+    50% {background-color: black ; left:75px ;top:370px;}
+    75% {background-color: black; left: 300px; top: 370px;}
+    100% {background-color: black; left: 200px; top: 370px;}
 }
 .div5 {
     width: 100px;
@@ -60,8 +73,11 @@
     animation-duration: 3s;
 }
 @keyframes ex5 {
-    from {background-color: white;left: 0px;top: 0px;}
-    to {background-color: black;left: 600px;top:70px;}
+    0% {background-color: white;left: 0px;top: 0px;}
+    25% {background-color: black;left: 300px;top:70px;}
+    50%{background-color: black; left:375px;top:170px;}
+    75% {background-color: black; left: 400px; top: 370px;}
+    100% {background-color: black; left: 200px; top: 470px;}
 }
 .div6 {
     width: 100px;
@@ -73,8 +89,11 @@
     animation-duration: 3s;
 }
 @keyframes ex6 {
-    from {background-color: white;left: 0px;top: 0px;}
-    to {background-color: black;left: 700px;top:170px;}
+    0% {background-color: white;left: 0px;top: 0px;}
+    25% {background-color: black; left: 400px;top:170px;}
+    50% {background-color: black;left: 450px;top:270px;}
+    75% {background-color: black; left: 500px; top: 270px;}
+    100% {background-color: black; left: 300px; top: 70px;}
 }
 .div7 {
     width: 100px;
@@ -86,8 +105,11 @@
     animation-duration: 3s;
 }
 @keyframes ex7 {
-    from {background-color: white;left: 0px;top: 0px;}
-    to {background-color: black;left: 600px;top:270px;}
+    0% {background-color: white;left: 0px;top: 0px;}
+    25% {background-color: black;left: 300px;top:270px;}
+    50% {background-color: black; left: 525px;top:370px;}
+    75% {background-color: black; left: 500px; top: 170px;}
+    100% {background-color: black; left: 400px; top: 70px;}
 }
 .div8 {
     width: 100px;
@@ -99,8 +121,11 @@
     animation-duration: 3s;
 }
 @keyframes ex8 {
-    from {background-color: white;left: 0px;top: 0px;}
-    to {background-color: black;left: 700px;top:370px;}
+    0% {background-color: white;left: 0px;top: 0px;}
+    25% {background-color: black;left: 400px;top:370px;}
+    50% {background-color: black; left:300px;top: 270px;}
+    75% {background-color: black; left: 500px; top: 70px;}
+    100% {background-color: black; left: 300px; top: 270px;}
 }
 
 
