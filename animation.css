@@ -1,0 +1,108 @@
+.div1 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex1;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex1 {
+    from {background-color: white;left: 0px;top: 0px;}
+    to {background-color: black;left: 500px;top:70px;}
+}
+.div2 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex2;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex2 {
+    from {background-color: white;left: 0px;top: 0px;}
+    to {background-color: black;left: 500px;top:170px;}
+}
+.div3 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex3;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex3 {
+    from {background-color: white;left: 0px;top: 0px;}
+    to {background-color: black;left: 500px;top:270px;}
+}
+.div4 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex4;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex4 {
+    from {background-color: white;left: 0px;top: 0px;}
+    to {background-color: black;left: 500px;top:370px;}
+}
+.div5 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex5;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex5 {
+    from {background-color: white;left: 0px;top: 0px;}
+    to {background-color: black;left: 600px;top:70px;}
+}
+.div6 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex6;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex6 {
+    from {background-color: white;left: 0px;top: 0px;}
+    to {background-color: black;left: 700px;top:170px;}
+}
+.div7 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex7;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex7 {
+    from {background-color: white;left: 0px;top: 0px;}
+    to {background-color: black;left: 600px;top:270px;}
+}
+.div8 {
+    width: 100px;
+    height: 100px;
+    animation-fill-mode: both;
+    animation-name: ex8;
+    animation-direction: alternate;
+    position: absolute;
+    animation-duration: 3s;
+}
+@keyframes ex8 {
+    from {background-color: white;left: 0px;top: 0px;}
+    to {background-color: black;left: 700px;top:370px;}
+}
+
+
+
+
